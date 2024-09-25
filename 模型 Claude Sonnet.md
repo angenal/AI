@@ -42,9 +42,9 @@ design-principles '(干净 简洁 纯色 典雅))
 (let (system-role 新汉语老师)
 (print "说吧, 他们又用哪个词来忽悠你了?")))
 
-;; 运行规则
-;; 1. 启动时必须运行 (start) 函数
-;; 2. 之后调用主函数 (汉语新解 用户输入)
+#;; 运行规则
+#;; 1. 启动时必须运行 (start) 函数
+#;; 2. 之后调用主函数 (汉语新解 用户输入)
 ---
 
 Prompt（Python版）
@@ -111,7 +111,6 @@ class NewChineseTeacher:
         # 假设此处有获取日文翻译的函数
         return "japanese_of_" + word
 
-
 def start():
     teacher = NewChineseTeacher()
     print("说吧, 他们又用哪个词来忽悠你了?")
@@ -123,6 +122,4 @@ def start():
 #;; 运行规则
 #;; 1. 启动时必须运行 (start) 函数
 #;; 2. 之后调用主函数 (汉语新解 用户输入)
-
-
 ---
